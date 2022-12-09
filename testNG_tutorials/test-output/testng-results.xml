@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="14" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-03T20:58:53 IST" name="Suite" finished-at="2022-11-03T20:58:53 IST" duration-ms="400">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.test2(java.lang.String)[pri:0, instance:testNG.Day1@3315d2d7]" name="test2" class="testNG.Day1"/>
+        <method signature="Day2.test2()[pri:0, instance:testNG.Day2@27ff5d15]" name="test2" class="testNG.Day2"/>
+        <method signature="day3.carloanWebapp(java.lang.String)[pri:0, instance:testNG.day3@56cdfb3b]" name="carloanWebapp" class="testNG.day3"/>
+        <method signature="day4.homeloanWebapp()[pri:0, instance:testNG.day4@2b91004a]" name="homeloanWebapp" class="testNG.day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-03T20:58:53 IST" name="TestNg" finished-at="2022-11-03T20:58:53 IST" duration-ms="100">
+      <class name="testNG.Day2">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testNG.Day2@27ff5d15]" started-at="2022-11-03T20:58:53 IST" name="beforetest" finished-at="2022-11-03T20:58:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:testNG.Day2@27ff5d15]" started-at="2022-11-03T20:58:53 IST" name="Afterclass" finished-at="2022-11-03T20:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:testNG.Day2@27ff5d15]" started-at="2022-11-03T20:58:53 IST" name="test1" finished-at="2022-11-03T20:58:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.testNG.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:testNG.Day2@27ff5d15]" started-at="2022-11-03T20:58:53 IST" name="test2" finished-at="2022-11-03T20:58:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNG.Day2@27ff5d15]" started-at="2022-11-03T20:58:53 IST" name="afterclass" finished-at="2022-11-03T20:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testNG.Day2@27ff5d15]" started-at="2022-11-03T20:58:53 IST" name="aftertest" finished-at="2022-11-03T20:58:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testNG.Day2 -->
+      <class name="testNG.Day1">
+        <test-method signature="test2(java.lang.String)[pri:0, instance:testNG.Day1@3315d2d7]" started-at="2022-11-03T20:58:53 IST" name="test2" finished-at="2022-11-03T20:58:53 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.testNG.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:testNG.Day1@3315d2d7]" started-at="2022-11-03T20:58:53 IST" name="test3" finished-at="2022-11-03T20:58:53 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test1()[pri:0, instance:testNG.Day1@3315d2d7]" started-at="2022-11-03T20:58:53 IST" name="test1" finished-at="2022-11-03T20:58:53 IST" depends-on-methods="testNG.Day1.test2, testNG.Day1.test3" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- testNG.Day1 -->
+    </test> <!-- TestNg -->
+    <test started-at="2022-11-03T20:58:53 IST" name="Loan" finished-at="2022-11-03T20:58:53 IST" duration-ms="78">
+      <class name="testNG.day3">
+        <test-method is-config="true" signature="starttest()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="starttest" finished-at="2022-11-03T20:58:53 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+        <test-method is-config="true" signature="weebbrowserlogin()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="weebbrowserlogin" finished-at="2022-11-03T20:58:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weebbrowserlogin -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="bmethod" finished-at="2022-11-03T20:58:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="carloanWebapp(java.lang.String)[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="carloanWebapp" finished-at="2022-11-03T20:58:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.banking.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloanWebapp -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="Amethod" finished-at="2022-11-03T20:58:53 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+        <test-method is-config="true" signature="bmethod()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="bmethod" finished-at="2022-11-03T20:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmethod -->
+        <test-method signature="carloanrestapi()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="carloanrestapi" finished-at="2022-11-03T20:58:53 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloanrestapi -->
+        <test-method is-config="true" signature="Amethod()[pri:0, instance:testNG.day3@56cdfb3b]" started-at="2022-11-03T20:58:53 IST" name="Amethod" finished-at="2022-11-03T20:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amethod -->
+      </class> <!-- testNG.day3 -->
+      <class name="testNG.day4">
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:testNG.day4@2b91004a]" started-at="2022-11-03T20:58:53 IST" name="Afterclass" finished-at="2022-11-03T20:58:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method signature="homeloanWebapp()[pri:0, instance:testNG.day4@2b91004a]" started-at="2022-11-03T20:58:53 IST" name="homeloanWebapp" finished-at="2022-11-03T20:58:53 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeloanWebapp -->
+        <test-method signature="homeloanmobileapp()[pri:0, instance:testNG.day4@2b91004a]" started-at="2022-11-03T20:58:53 IST" name="homeloanmobileapp" finished-at="2022-11-03T20:58:53 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeloanmobileapp -->
+        <test-method is-config="true" signature="webbrowserquit()[pri:0, instance:testNG.day4@2b91004a]" started-at="2022-11-03T20:58:53 IST" name="webbrowserquit" finished-at="2022-11-03T20:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webbrowserquit -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNG.day4@2b91004a]" started-at="2022-11-03T20:58:53 IST" name="afterclass" finished-at="2022-11-03T20:58:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="endmessage()[pri:0, instance:testNG.day4@2b91004a]" started-at="2022-11-03T20:58:53 IST" name="endmessage" finished-at="2022-11-03T20:58:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endmessage -->
+      </class> <!-- testNG.day4 -->
+    </test> <!-- Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
