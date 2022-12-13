@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-13T14:59:47 IST" name="Default suite" finished-at="2022-12-13T14:59:47 IST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2022-12-13T14:59:47 IST" name="Default test" finished-at="2022-12-13T14:59:47 IST" duration-ms="68">
+      <class name="quicklearn.mavenjava.RestAPItest">
+        <test-method signature="RestAPItest1()[pri:0, instance:quicklearn.mavenjava.RestAPItest@20ccf40b]" started-at="2022-12-13T14:59:47 IST" name="RestAPItest1" finished-at="2022-12-13T14:59:47 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPItest1 -->
+        <test-method signature="RestAPItest2()[pri:0, instance:quicklearn.mavenjava.RestAPItest@20ccf40b]" started-at="2022-12-13T14:59:47 IST" name="RestAPItest2" finished-at="2022-12-13T14:59:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RestAPItest2 -->
+      </class> <!-- quicklearn.mavenjava.RestAPItest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

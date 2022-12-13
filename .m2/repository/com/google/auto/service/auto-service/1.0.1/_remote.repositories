@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 10 23:55:27 IST 2022
+auto-service-1.0.1-sources.jar>central=
+auto-service-1.0.1.jar>central=
+auto-service-1.0.1.pom>central=
