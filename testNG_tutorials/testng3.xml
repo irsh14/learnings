@@ -12,7 +12,7 @@
 			<class name="testNG.Day2" />
 			<class name="testNG.day3"/>
 			<class name="testNG.day4"/>
-			<class name="testNG.day4"/>
+			
 		</classes>
 	</test>
 	 <!-- Test -->
