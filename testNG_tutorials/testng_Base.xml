@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+  <test thread-count="5" name="personalLoanTest">
+    <classes>
+      <class name="testNG_Base.PersonalLoan"/>
+    </classes>
+  </test>
+  
+   <test thread-count="5" name="HomeLoanTest">
+    <classes>
+      <class name="testNG_Base.HomeLoan"/>
+      <class name="testNG_Base.HomeLoan2"/>
+    </classes>
+  </test>
+  
+  <test thread-count="5" name="CarLoanTest">
+    <classes>
+      <class name="testNG_Base.CarLoan"/>
+      <class name="testNG_Base.CarLoan2"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
