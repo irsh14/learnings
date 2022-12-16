@@ -1,55 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="14" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-14T00:50:40 IST" name="Suite" finished-at="2022-12-14T00:50:40 IST" duration-ms="83">
+  <suite started-at="2022-12-16T22:37:11 IST" name="Default suite" finished-at="2022-12-16T22:37:11 IST" duration-ms="128">
     <groups>
-      <group name="smoke">
-        <method signature="Day1.test2(java.lang.String)[pri:0, instance:testNG.Day1@3a6bb9bf]" name="test2" class="testNG.Day1"/>
-        <method signature="Day2.test2()[pri:0, instance:testNG.Day2@1a4013]" name="test2" class="testNG.Day2"/>
-        <method signature="day3.carloanWebapp(java.lang.String)[pri:0, instance:testNG.day3@702b8b12]" name="carloanWebapp" class="testNG.day3"/>
-        <method signature="day4.homeloanWebapp()[pri:0, instance:testNG.day4@22e357dc]" name="homeloanWebapp" class="testNG.day4"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-12-14T00:50:40 IST" name="TestNg" finished-at="2022-12-14T00:50:40 IST" duration-ms="83">
-      <class name="testNG.day3">
-        <test-method signature="carloanWebapp(java.lang.String)[pri:0, instance:testNG.day3@702b8b12]" started-at="2022-12-14T00:50:40 IST" name="carloanWebapp" finished-at="2022-12-14T00:50:40 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[www.testNG.com]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-12-16T22:37:11 IST" name="Default test" finished-at="2022-12-16T22:37:11 IST" duration-ms="128">
+      <class name="testNG_Base.HomeLoan">
+        <test-method signature="Above5lLoan_home()[pri:0, instance:testNG_Base.HomeLoan@4e268090]" started-at="2022-12-16T22:37:11 IST" name="Above5lLoan_home" finished-at="2022-12-16T22:37:11 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carloanWebapp -->
-      </class> <!-- testNG.day3 -->
-      <class name="testNG.day4">
-        <test-method signature="homeloanWebapp()[pri:0, instance:testNG.day4@22e357dc]" started-at="2022-12-14T00:50:40 IST" name="homeloanWebapp" finished-at="2022-12-14T00:50:40 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- Above5lLoan_home -->
+        <test-method signature="Below5lLoan_home()[pri:0, instance:testNG_Base.HomeLoan@4e268090]" started-at="2022-12-16T22:37:11 IST" name="Below5lLoan_home" finished-at="2022-12-16T22:37:11 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homeloanWebapp -->
-      </class> <!-- testNG.day4 -->
-      <class name="testNG.Day2">
-        <test-method signature="test2()[pri:0, instance:testNG.Day2@1a4013]" started-at="2022-12-14T00:50:40 IST" name="test2" finished-at="2022-12-14T00:50:40 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Below5lLoan_home -->
+      </class> <!-- testNG_Base.HomeLoan -->
+      <class name="testNG_Base.HomeLoan2">
+        <test-method signature="Above15lLoan_home()[pri:0, instance:testNG_Base.HomeLoan2@4d910fd6]" started-at="2022-12-16T22:37:11 IST" name="Above15lLoan_home" finished-at="2022-12-16T22:37:11 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- testNG.Day2 -->
-      <class name="testNG.Day1">
-        <test-method signature="test2(java.lang.String)[pri:0, instance:testNG.Day1@3a6bb9bf]" started-at="2022-12-14T00:50:40 IST" name="test2" finished-at="2022-12-14T00:50:40 IST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[www.testNG.com]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Above15lLoan_home -->
+        <test-method signature="Below15lLoan_home()[pri:0, instance:testNG_Base.HomeLoan2@4d910fd6]" started-at="2022-12-16T22:37:11 IST" name="Below15lLoan_home" finished-at="2022-12-16T22:37:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- testNG.Day1 -->
-    </test> <!-- TestNg -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Below15lLoan_home -->
+      </class> <!-- testNG_Base.HomeLoan2 -->
+      <class name="testNG_Base.CarLoan">
+        <test-method signature="Above5lLoan()[pri:0, instance:testNG_Base.CarLoan@26275bef]" started-at="2022-12-16T22:37:11 IST" name="Above5lLoan" finished-at="2022-12-16T22:37:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Above5lLoan -->
+        <test-method signature="Below5lLoan()[pri:0, instance:testNG_Base.CarLoan@26275bef]" started-at="2022-12-16T22:37:11 IST" name="Below5lLoan" finished-at="2022-12-16T22:37:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Below5lLoan -->
+      </class> <!-- testNG_Base.CarLoan -->
+      <class name="testNG_Base.PersonalLoan">
+        <test-method signature="Above5lLoan()[pri:0, instance:testNG_Base.PersonalLoan@3246fb96]" started-at="2022-12-16T22:37:11 IST" name="Above5lLoan" finished-at="2022-12-16T22:37:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Above5lLoan -->
+        <test-method signature="Below5lLoan()[pri:0, instance:testNG_Base.PersonalLoan@3246fb96]" started-at="2022-12-16T22:37:11 IST" name="Below5lLoan" finished-at="2022-12-16T22:37:11 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Below5lLoan -->
+      </class> <!-- testNG_Base.PersonalLoan -->
+      <class name="testNG_Base.CarLoan2">
+        <test-method signature="Above15lLoan()[pri:0, instance:testNG_Base.CarLoan2@2e222612]" started-at="2022-12-16T22:37:11 IST" name="Above15lLoan" finished-at="2022-12-16T22:37:11 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Above15lLoan -->
+        <test-method signature="Near10lLoan()[pri:0, instance:testNG_Base.CarLoan2@2e222612]" started-at="2022-12-16T22:37:11 IST" name="Near10lLoan" finished-at="2022-12-16T22:37:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Near10lLoan -->
+      </class> <!-- testNG_Base.CarLoan2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
